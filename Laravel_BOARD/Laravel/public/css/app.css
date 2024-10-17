@@ -1,0 +1,305 @@
+/* top */
+header,
+.container {
+  margin: 0 10%;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* 通常のボタン（indexページ用） */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #008000;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3300cc;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #db1529;
+}
+
+/* form */
+.form-control {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  margin-top: 20px;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+/* auth */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+
+.nav-item {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-brand,
+.nav-link,
+.dropdown-item {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+}
+
+.post-box {
+  border: 1px solid #000;
+  margin-bottom: 15px;
+}
+
+/* 新規投稿フォーム */
+/* 新規投稿フォーム（createページ用） */
+.create-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea.form-control {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* 新規投稿フォームの投稿ボタン */
+.create-form .btn-success {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-form .btn-success:hover {
+  background-color: #218838;
+}
+
+/* 更新フォーム（updateページ用） */
+.update-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-form .btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #3300cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-form .btn-primary:hover {
+  background-color: #2600a3;
+}
+
+/* ログインフォーム */
+.login-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.login-form .form-check-label {
+  display: inline;
+  margin-left: 5px;
+}
+
+.login-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.login-buttons .btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #3300cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-buttons .btn-primary:hover {
+  background-color: #2600a3;
+}
+
+.login-buttons .btn-link {
+  align-self: flex-end;
+  margin-top: 10px;
+  color: #3300cc;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-buttons .btn-link:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* 検索フォーム */
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.search-button {
+  padding: 5px 15px;
+  background-color: #0066cc;
+  color: #fff;
+  cursor: pointer;
+  margin: 0px;
+}
+
+/* 投稿一覧 */
+
+.me-auto {
+  display: none;
+}
+
+.post-item {
+  background-color: #f0fff0;
+}
+
+.name,
+.content,
+.time {
+  margin: 0px;
+  padding: 5px;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.content {
+  background-color: #ffffff;
+  font-size: 24px;
+}
+
+.time {
+  text-align: right;
+  background-color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
